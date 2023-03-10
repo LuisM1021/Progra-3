@@ -1,0 +1,10 @@
+digraph {
+    layout ="circo"
+    node[shape=circle]
+    
+    A->B
+    B->C
+    C->E
+    E ->{D F}
+    D->B
+}

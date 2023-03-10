@@ -1,0 +1,11 @@
+digraph{
+    node[shape=circle]
+    "raiz" [label=2] 
+    "n5" [label=5]
+
+    "raiz"->{7 5}
+    7->{2 6}
+    5->9
+    9->4
+    6->{"n5" 11}
+}

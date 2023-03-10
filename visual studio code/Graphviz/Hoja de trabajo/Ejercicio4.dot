@@ -1,0 +1,6 @@
+digraph{
+    rankdir=LR
+    node[shape=circle  fontcolor=gray]
+    a->b
+   
+}
